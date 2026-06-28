@@ -10,7 +10,6 @@ o
 
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
 }
 
 void loop() {
@@ -32,5 +31,4 @@ void loop() {
   Serial.println(" cm");
 
   delay(500);
-
 }

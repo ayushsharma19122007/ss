@@ -32,7 +32,6 @@ void loop() {
     digitalWrite(9, LOW);
     digitalWrite(10, LOW);
     digitalWrite(11, LOW);
-
   }
 
   else if (temperature >= 30 && temperature < 35) {
@@ -41,7 +40,6 @@ void loop() {
     digitalWrite(9, HIGH);
     digitalWrite(10, LOW);
     digitalWrite(11, LOW);
-
   }
 
   else {
@@ -50,7 +48,6 @@ void loop() {
     digitalWrite(9, LOW);
     digitalWrite(10, HIGH);
     digitalWrite(11, HIGH);
-
   }
 
   delay(1000);
